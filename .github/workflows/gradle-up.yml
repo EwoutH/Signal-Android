@@ -10,3 +10,11 @@ jobs:
         uses: gradle-update/update-gradle-wrapper-action@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    runs-on: ubuntu-latest
+    name: gradle-up
+    steps:
+    - uses: actions/checkout@v2
+    - uses: rahulsom/gradle-up@v0.2.0
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
