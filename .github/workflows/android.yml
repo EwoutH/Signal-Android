@@ -17,10 +17,10 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew qa
     - name: Upload APK
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: Signal-Android-app
-        path: app/build/outputs/apk/qa/app-qa.apk
+        path: app/build/outputs/apk/qa/*.apk
 
   test:
     runs-on: ubuntu-latest
