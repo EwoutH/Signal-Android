@@ -393,7 +393,7 @@ dependencies {
     }
     implementation 'dnsjava:dnsjava:2.1.9'
 
-    flipperImplementation 'com.facebook.flipper:flipper:0.32.2'
+    flipperImplementation 'com.facebook.flipper:flipper:0.70.0'
     flipperImplementation 'com.facebook.soloader:soloader:0.8.2'
 
     testImplementation 'junit:junit:4.12'
