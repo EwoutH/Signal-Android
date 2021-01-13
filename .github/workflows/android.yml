@@ -1,7 +1,5 @@
 name: Android CI
-on:
-  pull_request:
-  push:
+on: [pull_request, push]
 
 jobs:
   build:
@@ -17,10 +15,11 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew qa
     - name: Upload APK
+      #if: ${{ github.repository_owner == signalapp }}
       uses: actions/upload-artifact@v2
       with:
         name: Signal-Android-app
-        path: app/build/outputs/apk/qa/*.apk
+        path: app/build/outputs/apk/**/*.apk
 
   test:
     runs-on: ubuntu-latest
