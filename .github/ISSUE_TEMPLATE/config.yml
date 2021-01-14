@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions?
+    url: https://support.signal.org/
+    about: Search for any questions you have about Signal here
+  - name: Community support
+    url: https://community.signalusers.org/c/support/
+    about: Get support from other Signal users here
+  - name: Feature Request
+    url: https://community.signalusers.org/c/feature-requests/
+    about: Search and place feature requests here
+  - name: Translation feedback
+    url: https://community.signalusers.org/c/translation-feedback/
+    about: Share feedback on translations
