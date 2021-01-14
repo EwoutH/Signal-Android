@@ -12,3 +12,5 @@ contact_links:
   - name: Translation feedback
     url: https://community.signalusers.org/c/translation-feedback/
     about: Share feedback on translations
+  - name: Bug report
+    about: Technical bug reports by developers
