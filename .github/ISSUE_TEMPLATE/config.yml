@@ -2,14 +2,14 @@ blank_issues_enabled: false
 contact_links:
   - name: 📃 User documentation
     url: https://support.signal.org/
-    about: Search for any questions you have about Signal here
-  - name: 📖 View developer documentation
+    about: Search for any questions you have about Signal
+  - name: 📖 Developer documentation
     url: https://signal.org/docs/
-    about: Official Signal documentation 
+    about: Official Signal deveoper documentation 
   - name: 💬 Community support
     url: https://community.signalusers.org/c/support/
     about: Feel free to ask anything
-  - name: ✨ Feature Request
+  - name: ✨ Feature request
     url: https://community.signalusers.org/c/feature-requests/
     about: Missing something in Signal? Let us know.
   - name: 📚 Translation feedback
