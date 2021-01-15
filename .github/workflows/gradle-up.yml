@@ -10,4 +10,4 @@ jobs:
         uses: gradle-update/update-gradle-wrapper-action@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          target-branch: gradle-up-target
+          target-branch: gradle-up-target-2
