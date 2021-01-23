@@ -9,5 +9,5 @@ jobs:
       - name: Update Gradle Wrapper
         uses: gradle-update/update-gradle-wrapper-action@base-branch
         with:
-          base-branch: upstream/master
+          base-branch: master
           repo-token: ${{ secrets.GITHUB_TOKEN }}
