@@ -3,10 +3,6 @@ name: Android CI
 on:
   pull_request:
   push:
-    branches:
-    - 'master'
-    - '4.**'
-    - '5.**'
 
 jobs:
   build:
@@ -25,4 +21,4 @@ jobs:
       uses: gradle/wrapper-validation-action@v1
 
     - name: Build with Gradle
-      run: ./gradlew qa
+      run: ./gradlew qa --warning-mode=all
